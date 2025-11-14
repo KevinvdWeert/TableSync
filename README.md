@@ -1,10 +1,10 @@
-# SyncTable
+# TableSync
 
 A comprehensive restaurant management system built with Laravel, designed to handle reservations, menu management, orders, and customer reviews.
 
 ## About This Project
 
-SyncTable is a modern web application that provides a complete solution for restaurant operations. It enables restaurant owners to manage their establishments efficiently while providing customers with an intuitive platform for making reservations and placing orders.
+TableSync is a modern web application that provides a complete solution for restaurant operations. It enables restaurant owners to manage their establishments efficiently while providing customers with an intuitive platform for making reservations and placing orders.
 
 ## Features
 
@@ -49,7 +49,7 @@ The application includes pre-configured migrations for:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd synctable
+   cd tablesync
    ```
 
 2. **Install PHP dependencies**
@@ -77,7 +77,7 @@ The application includes pre-configured migrations for:
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=synctable
+   DB_DATABASE=Tablesync
    DB_USERNAME=root
    DB_PASSWORD=
    ```
@@ -121,7 +121,7 @@ npm run build
 ## Project Structure
 
 ```
-synctable/
+TableSync/
 ├── app/
 │   ├── Http/Controllers/    # Application controllers
 │   ├── Models/              # Eloquent models
